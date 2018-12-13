@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>todolist该</title>
+  <script>
+    function scale() {
+      var pageWidth = '750';
+      var scale = parseInt(window.screen.width) / pageWidth;
+      if (parseInt(window.screen.width) > 750) {
+        scale = 1;
+      }
+      document.write('<meta name="viewport" content="width=' + pageWidth + ',initial-scale=' + scale +
+        ', minimum-scale=' + scale + ', maximum-scale=' + scale + ', user-scalable=no">');
+    }
+    scale();
+
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
